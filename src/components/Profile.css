@@ -1,0 +1,20 @@
+.main {
+  width: 68%;
+  margin-left: 20px;
+}
+.main-header {
+  background-image: url("https://www.newzealand.com/assets/Tourism-NZ/Fiordland/img-1536137761-110-7749-p-7ECF7092-95BD-FE18-6D4107E2E42D067E-2544003__aWxvdmVrZWxseQo_FocalPointCropWzY2MCwxOTIwLDUwLDUwLDc1LCJqcGciLDY1LDIuNV0.jpg");
+  width: 114%;
+  height: 250px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  margin-bottom: 20px;
+}
+.profile-block {
+  display: flex;
+}
+.avatar img {
+  width: 140px;
+  margin-right: 20px;
+}

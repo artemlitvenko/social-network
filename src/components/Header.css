@@ -1,0 +1,11 @@
+header {
+  width: 100%;
+  background: lightslategray;
+  padding: 20px 30px;
+  margin-bottom: 30px;
+}
+.logo {
+  color: #fff;
+  font-size: 20px;
+  font-weight: 600;
+}
