@@ -1,0 +1,10 @@
+.post-item {
+  margin: 20px 0;
+}
+.post-container {
+  display: flex;
+}
+.post-avatar img {
+  width: 50px;
+  margin: 15px 15px 0 0;
+}
