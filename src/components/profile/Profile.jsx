@@ -22,7 +22,6 @@ const Profile = () => {
           <div className="posts">
               <MyPosts />
           </div>
-          <Dialogs />
       </div>
   )
 }
