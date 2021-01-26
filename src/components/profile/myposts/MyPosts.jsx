@@ -11,7 +11,7 @@ const MyPosts = (props) => {
           <h2>My posts</h2>
           <div className="post-form">
               <textarea></textarea>
-              <button>Add post</button>
+              <button>Add new post</button>
           </div>
             { postElements }
         </div>

@@ -11,7 +11,8 @@ let state = {
         {id: 1, name: "Alex"},
         {id: 2, name: "Sara"},
         {id: 3, name: "Matt"},
-        {id: 4, name: "Ithan"}
+        {id: 4, name: "Ithan"},
+        {id: 4, name: "Bill"},
     ],
     messagesData: [
         {id: 0, message: "Message 1"},
