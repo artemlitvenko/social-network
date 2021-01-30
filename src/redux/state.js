@@ -8,7 +8,8 @@ let state = {
             {id: 2, message: "Post 3", likesCount: 2},
             {id: 3, message: "Post 4", likesCount: 15},
             {id: 4, message: "Post 5", likesCount: 18},
-        ]
+        ],
+        newPostText: 'uptarget.com.ua'
     },
     dialogsPage: {
         dialogsData: [
@@ -29,14 +30,20 @@ let state = {
     }
 };
 
-export let addPost = (postMessage) => {
+export let addPost = () => {
     let newPost = {
         id: 5,
-        message: postMessage,
+        message: state.profilePage.newPostText,
         likesCount: 0
     };
     state.profilePage.postData.push(newPost);
-    // rerenderEntireTree();
+    state.profilePage.newPostText = '';
+    rerenderEntireTree(state);
+}
+
+export let updateNewPostText = (newText) => {
+    state.profilePage.newPostText = newText;
+    rerenderEntireTree(state);
 }
 
 export default state;
