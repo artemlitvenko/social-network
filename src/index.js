@@ -6,7 +6,12 @@ import App from './App';
 import reportWebVitals from './reportWebVitals';
 
 export let rerenderEntireTree = (state) => {
-    ReactDOM.render( <App appState={state} addPost={store.addPost.bind(store)} updateNewPostText={store.updateNewPostText.bind(store)} />, document.getElementById('root'));
+    ReactDOM.render(
+        <App
+            appState={state}
+            dispatch={ store.dispatch.bind(store) }
+        />,
+        document.getElementById('root'));
 }
 
 
