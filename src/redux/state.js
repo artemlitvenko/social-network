@@ -25,7 +25,8 @@ let store = {
                 {id: 2, message: "Message 3"},
                 {id: 3, message: "Message 4"},
                 {id: 4, message: "Message 5"},
-            ]
+            ],
+            newMessageBody: ''
         }
     },
     _callSubscriber() {
