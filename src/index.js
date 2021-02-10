@@ -8,8 +8,9 @@ import reportWebVitals from './reportWebVitals';
 export let rerenderEntireTree = (state) => {
     ReactDOM.render(
         <App
-            appState={state}
+            appState={ state }
             dispatch={ store.dispatch.bind(store) }
+            store={ store }
         />,
         document.getElementById('root'));
 }
